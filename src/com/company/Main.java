@@ -8,12 +8,12 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        FigureReader reader = new FigureReader(sc);
-        Circle circle = reader.readCircle();
+        FigureReader reader2 = new FigureReader(sc);
+        Circle circle = reader2.readCircle();
         int counter = 0;
         for (int i = 0; i < POINT_COUNT; i++) {
             System.out.printf("Enter the %d point\n",i+1);
-            Point p = reader.readPoint();
+            Point p = reader2.readPoint();
             if(circle.containsPoint(p)){
                 counter++;
             }
