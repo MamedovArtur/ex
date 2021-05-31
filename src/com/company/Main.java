@@ -4,7 +4,7 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
-    private final static int POINT_COUNT = 5;
+    private final static int POINT_COUNT = 6;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
